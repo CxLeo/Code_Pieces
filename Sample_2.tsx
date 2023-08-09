@@ -17,7 +17,6 @@
                                     sx={{ my: 2, color: 'black', display: 'block' }}
                                     onClick={() => {
                                         let path;
-                                        //console.log(cookies.user);
                                         if (cookies.user) {
                                             path = '/admin';
                                         } else {
